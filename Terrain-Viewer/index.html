@@ -5,7 +5,16 @@
   </head>
   <body style="background: #333; color: white">
     <h2>Standalone Terrain Viewer</h2>
+
+    <label for="schemeSelect">Color Scheme:</label>
+    <select id="schemeSelect">
+      <option value="original">Original</option>
+      <option value="second">Second</option>
+    </select>
+
     <canvas id="canvas"></canvas>
+
     <script type="module" src="render.js"></script>
   </body>
 </html>
+
